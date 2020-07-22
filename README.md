@@ -12,7 +12,7 @@ Very simple API using Node JS with a SQL database for a To Do List project. It i
     |   └── select.sql
     ├── routes                 # Routes definition (single route application)  
     │   └── main.js                           
-    ├── a.env                  # Environement variables 
+    ├── a.env                  # Environment variables 
     ├── mysql.js               # SQL Pool definition and main function (execute) to run queries with error catching  
     ├── app.js 
     ├── server.js               
