@@ -54,7 +54,7 @@ exports.deleteTodo = async (req, res, next) => {
         await mysql.execute(query, params);
         
         const response = {
-            mensagem: 'Todo successfully removed'
+            message: 'Todo successfully removed'
         }
 
         return res.status(202).send(response);
