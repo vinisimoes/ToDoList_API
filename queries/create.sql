@@ -1,0 +1,10 @@
+USE todolist;
+SHOW TABLES;
+
+CREATE TABLE todos (
+	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    task VARCHAR(100),
+    completed BIT DEFAULT 0
+);
+
+-- DROP TABLE todos;
