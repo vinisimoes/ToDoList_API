@@ -5,15 +5,16 @@ Very simple API using Node JS with a SQL database for a To Do List project. It i
 ## Folder structure
     .
     ├── ...
-    ├── controllers               # Actual implementation of routes' functions
+    ├── controllers            # Actual implementation of routes' functions
     │   └── main-controller.js          
-    ├── queries                   # SQL queries
+    ├── queries                # SQL queries
     │   ├── create.sql        
     |   └── select.sql
-    ├── routes                    # Routes definition (single route application)  
-    │   └── main.js         
-    ├── app.js                   
-    ├── mysql.js                 # SQL Pool definition and main function (execute) to run queries with error catching  
+    ├── routes                 # Routes definition (single route application)  
+    │   └── main.js                           
+    ├── .env		       # Environement variables 
+    ├── mysql.js               # SQL Pool definition and main function (execute) to run queries with error catching  
+    ├── app.js 
     ├── server.js               
     ├── package.json                
     └── ...
